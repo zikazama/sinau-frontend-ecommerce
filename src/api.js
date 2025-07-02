@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE || 'http://localhost:5000',
+  baseURL: import.meta.env.VITE_API_BASE || 'https://df4c-114-10-45-187.ngrok-free.app' || 'http://localhost:5000',
 });
 
 // Add interceptor to attach token automatically
